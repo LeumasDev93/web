@@ -1,0 +1,28 @@
+.footersection {
+    padding: 3.75rem 0;
+    height: 100%;
+  }
+
+
+.container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--dark-blue, #1C528A);;
+}
+
+.social {
+    grid-auto-flow: column;
+    width: fit-content;
+    transition: 0.3s;
+    display: inline-block;
+    transform: translateY(-8px);
+}
+  
+.footer {
+     background-color: var(--dark-blue, #1C528A);
+     height: 250px;
+     width: 100%;
+     display: flex;
+     margin-top: 2rem;
+}

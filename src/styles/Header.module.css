@@ -1,0 +1,90 @@
+
+
+.header {
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+    background-color: blue;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1C528A;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 100px;
+    font-family: DMsans, "Helvetica Neue",  ;
+  }
+
+  .links_items {
+    display: flex;
+    list-style: none;
+  }
+
+  .li {
+    margin-right: 1.3rem;
+    font-family: DMsans, "Helvetica Neue",  ;
+    color: #1C528A;
+    text-decoration: none;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+  }
+
+  .li a:hover {
+    bordereColor: blue;
+    font-weight: bold;
+  }
+
+  .signIn {
+    display: inline-flex;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 40px;
+    background: linear-gradient(135deg, #1C528A 0%, #1C528A 99.25%);
+    color: #FFF;
+    font-family: DMsans, "Helvetica Neue",  ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .signUp {
+    margin-left: 0.9em;
+    font-family: DMsans, "Helvetica Neue",  ;
+  }
+
+  .autentication{
+    margin-right: 100px;
+  }
+  
